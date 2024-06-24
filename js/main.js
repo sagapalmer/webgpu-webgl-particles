@@ -59,7 +59,7 @@ if (renderer) {
     await renderer.init();
     const endTime = performance.now();
     
-    console.log(`Initialization time: ${endTime - startTime}ms`);
+    //console.log(`Initialization time: ${endTime - startTime}ms`);
     renderer.setStats(stats);
     if (prevCanvas) {
       document.body.removeChild(prevCanvas);

@@ -19,9 +19,6 @@
 // SOFTWARE.
 
 import { Renderer } from '../renderer.js';
-import { Benchmark } from './benchmarks/benchmark.js';
-import { TimeStamps } from './benchmarks/timestamps.js';
-import { Timer } from './benchmarks/timernew.js';
 
 const updatePositionVS = `#version 300 es
 in vec2 oldPosition;
